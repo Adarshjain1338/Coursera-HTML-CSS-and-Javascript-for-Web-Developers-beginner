@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: s ;
+}
+body{
+    background-color: darkslategrey;
+}
+h1{
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 30px;
+    color: red;
+    font-family: sans-serif;
+}
+h3{
+    text-align: center;
+}
+.container{
+    padding: 5px;
+    float: left;
+    position: relative;
+}
+
+.box-item1{
+    background-color: rgb(218, 209, 87);
+    padding: 0px 40px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+    border: 2px solid black;
+    
+}
+.box{
+    background-color: blueviolet;
+    margin: 20px;
+    border: 3px solid black;
+    position: relative;
+}
+.box p{
+    margin-top: 18px;
+    font-size:100%;
+    padding: 10px;
+
+}
+
+ /* Simple Responsive Framework. */
+  /*------ Desktop ------*/
+  @media (min-width: 992px){
+    .box-lg-1, .box-lg-2, .box-lg-3, .box-lg-4, .box-lg-5, .box-lg-6, .box-lg-7, .box-lg-8, .box-lg-9, .box-lg-10, .box-lg-11, .box-lg-12 {
+      float: left;  
+    }
+    .box-lg-1 {
+      width: 8.33%;
+    }
+    .box-lg-2 {
+      width: 16.66%;
+    }
+    .box-lg-3 {
+      width: 25%;
+    }
+    .box-lg-4 {
+      width: 33.33%;
+    }
+    .box-lg-5 {
+      width: 41.66%;
+    }
+    .box-lg-6 {
+      width: 50%;
+    }
+    .box-lg-7 {
+      width: 58.33%;
+    }
+    .box-lg-8 {
+      width: 66.66%;
+    }
+    .box-lg-9 {
+      width: 74.99%;
+    }
+    .box-lg-10 {
+      width: 83.33%;
+    }
+    .box-lg-11 {
+      width: 91.66%;
+    }
+    .box-lg-12 {
+      width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .box-md-4 {
+      width: 50%;
+      float: left;
+    }
+    .box-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+}
